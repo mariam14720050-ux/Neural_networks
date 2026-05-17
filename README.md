@@ -2,18 +2,18 @@
 
 A deep learning project that compares the effect of different activation functions on a fully-connected neural network using the MNIST dataset.
 
-## 📌 Problem Description
+##  Problem Description
 
 This project investigates how activation functions impact a neural network's learning and accuracy. Two models with identical architectures are trained — one using **ReLU** and one using **Tanh** — and their performance is analyzed and compared.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - TensorFlow / Keras
 - NumPy
 - Matplotlib
 
-## 📂 Dataset
+##  Dataset
 
 - **Dataset:** MNIST Handwritten Digits
 - **Link:** [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)
@@ -26,16 +26,17 @@ This project investigates how activation functions impact a neural network's lea
 |-------|-------------------|----------|------|
 | Model A | ReLU | 98.22% | 0.0621 |
 | Model B | Tanh | 97.46% | 0.0784 |
+ 
+ 
+ **ReLU outperformed Tanh** with higher accuracy and lower loss on this dataset.
 
-✅ **ReLU outperformed Tanh** with higher accuracy and lower loss on this dataset.
-
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ```
 Dense(256, activation) → Dropout(0.3) → Dense(128, activation) → Dropout(0.3) → Dense(10, softmax)
 ```
 
-## 🚀 Instructions for Running the Project
+##  Instructions for Running the Project
 
 1. Open `Neural_Networks.ipynb` in **Google Colab** or Jupyter Notebook
 2. Install dependencies:
@@ -45,7 +46,7 @@ pip install tensorflow numpy matplotlib
 3. Run all cells in order
 4. Results and comparison plots will appear at the end of the notebook
 
-## 👩‍💻 Author
+##  Author
 
 **Mariam Hany** — Computer Science Student, Badr University in Asyut
 📧 mariam14720050@gmail.com
